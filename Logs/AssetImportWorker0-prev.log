@@ -15,11 +15,11 @@ D:/MS Word files/School/ADMU/3rd year/2nd Sem/ISCS Game Dev/OverTheShoulder
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59912
+61302
 Successfully changed project path to: D:/MS Word files/School/ADMU/3rd year/2nd Sem/ISCS Game Dev/OverTheShoulder
 D:/MS Word files/School/ADMU/3rd year/2nd Sem/ISCS Game Dev/OverTheShoulder
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 41.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1 (3737af19df53)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,36 +35,36 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002747 seconds.
+Registered in 0.002823 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 44.89 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 43.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.622 seconds
+- Completed reload, in  1.652 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001692 seconds.
+Registered in 0.001789 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C061941B0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A25D002410 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BDFE08D70 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A25CDFE530 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.862 seconds
+- Completed reload, in  4.582 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1700 Unused Serialized files (Serialized files now loaded: 0)
@@ -72,701 +72,1350 @@ System memory in use before: 172.0 MB.
 System memory in use after: 172.1 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2178.
-Total: 2.939500 ms (FindLiveObjects: 0.156500 ms CreateObjectMapping: 0.074800 ms MarkObjects: 2.572800 ms  DeleteObjects: 0.134300 ms)
+Total: 2.424200 ms (FindLiveObjects: 0.144800 ms CreateObjectMapping: 0.060700 ms MarkObjects: 2.083200 ms  DeleteObjects: 0.133900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/EnemyAI.cs
-  artifactKey: Guid(92be217c1b8ed924e9b0fe829622e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyAI.cs using Guid(92be217c1b8ed924e9b0fe829622e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21375858c20046b7cbf5b0a060471170') in 0.263381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 358.053773 seconds.
-  path: Assets/SlimeRabbit/Animator/SlimeRabbitAnim.controller
-  artifactKey: Guid(c4aa28baba0cd1744abfd30b0b913647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlimeRabbit/Animator/SlimeRabbitAnim.controller using Guid(c4aa28baba0cd1744abfd30b0b913647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78c90e6fa283fb261b1f0ba7441ecaa') in 0.353382 seconds 
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.101887 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002581 seconds.
+Registered in 0.001700 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026BE0101410 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0A312B010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C09F67010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A25D673F70 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.487 seconds
+- Completed reload, in  1.297 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 171.6 MB.
 System memory in use after: 171.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2181.
-Total: 3.490500 ms (FindLiveObjects: 0.220000 ms CreateObjectMapping: 0.078900 ms MarkObjects: 3.124100 ms  DeleteObjects: 0.065600 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2181.
+Total: 2.477600 ms (FindLiveObjects: 0.155500 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.166200 ms  DeleteObjects: 0.089200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001936 seconds.
+Registered in 0.001681 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C4BEAB060 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0A2380E40 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C09B356F0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0A6DAEEE0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.026 seconds
+- Completed reload, in  1.159 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 171.6 MB.
 System memory in use after: 171.7 MB.
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2184.
-Total: 2.450700 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.054300 ms MarkObjects: 2.153400 ms  DeleteObjects: 0.104700 ms)
+Total: 2.694500 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.063900 ms MarkObjects: 2.383000 ms  DeleteObjects: 0.090200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001955 seconds.
+Registered in 0.001777 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C09FA9020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0A1DEA740 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C4BEAE9C0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0A61C5620 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
+- Completed reload, in  1.203 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 171.6 MB.
 System memory in use after: 171.7 MB.
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2187.
-Total: 2.953900 ms (FindLiveObjects: 0.158700 ms CreateObjectMapping: 0.055700 ms MarkObjects: 2.674600 ms  DeleteObjects: 0.063600 ms)
+Total: 2.960700 ms (FindLiveObjects: 0.161600 ms CreateObjectMapping: 0.056900 ms MarkObjects: 2.675900 ms  DeleteObjects: 0.064600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.060133 seconds.
+Registered in 0.001819 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026BE07AA030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0AA7B8760 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C05468030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0A61C5620 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.706 seconds
+- Completed reload, in  1.205 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 171.6 MB.
 System memory in use after: 171.7 MB.
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2190.
-Total: 4.471000 ms (FindLiveObjects: 0.258600 ms CreateObjectMapping: 0.160300 ms MarkObjects: 3.988600 ms  DeleteObjects: 0.061800 ms)
+Total: 3.064800 ms (FindLiveObjects: 0.229800 ms CreateObjectMapping: 0.066600 ms MarkObjects: 2.689200 ms  DeleteObjects: 0.077700 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 720.767729 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(5757ef7196b0525448e86600dc573b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(5757ef7196b0525448e86600dc573b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968619d81377a120722da166bb149e8c') in 0.187511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.671786 seconds.
+  path: Assets/EffectExamples
+  artifactKey: Guid(dcb880f1412abe7448a3496f23e14ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples using Guid(dcb880f1412abe7448a3496f23e14ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b69bd7dbdb8c8299d4bef4e584245e') in 0.037604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.862439 seconds.
+  path: Assets/PolygonStarter
+  artifactKey: Guid(7e8c340802d81b742851189c78be803b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter using Guid(7e8c340802d81b742851189c78be803b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325dc0e6548ba15ef9937c6464c3537a') in 0.049095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.899714 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(f58efb8ffae9e304cbbc4660e3e8b480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(f58efb8ffae9e304cbbc4660e3e8b480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b4c96d8cc61251f2d78dc60c3b34a1') in 1.481963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.216447 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(8068fc823e599954ba76076d0d5396aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(8068fc823e599954ba76076d0d5396aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec6a0e36644ec6c6f09d6a3e5dda7a6') in 0.012225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.710729 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(ff61e4fdcf3f74941875e327835a3f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(ff61e4fdcf3f74941875e327835a3f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b431d469c33af326f8f5e3f8df5965') in 0.044985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.120516 seconds.
+  path: Assets/New Project (4).png
+  artifactKey: Guid(35a96a5502663f34d83899f629b72ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Project (4).png using Guid(35a96a5502663f34d83899f629b72ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68c982a4ee964b8c03bf4d32f8dd8e1') in 0.298142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.504025 seconds.
+  path: Assets/Hurt.png
+  artifactKey: Guid(35a96a5502663f34d83899f629b72ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hurt.png using Guid(35a96a5502663f34d83899f629b72ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff5bbf2332c341c60f060dcfb4d38a7') in 0.074410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.174609 seconds.
+  path: Assets/New Project (4).png
+  artifactKey: Guid(cd2756528ea8daa47bac11735c96f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Project (4).png using Guid(cd2756528ea8daa47bac11735c96f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebc6373a23625037640ff92f9d7e6f7') in 0.037517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.415463 seconds.
+  path: Assets/New Project (4).png
+  artifactKey: Guid(cd2756528ea8daa47bac11735c96f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Project (4).png using Guid(cd2756528ea8daa47bac11735c96f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898e7c2a09222aea5280d182b9ee1a90') in 0.028435 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001617 seconds.
+Registered in 0.001918 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C05247420 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0AA5A6440 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C09FA8010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.544 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.6 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2193.
-Total: 3.130600 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.051500 ms MarkObjects: 2.848900 ms  DeleteObjects: 0.077900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001757 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C08BD1010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C09B356F0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.6 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2196.
-Total: 2.719500 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.060400 ms MarkObjects: 2.392000 ms  DeleteObjects: 0.108400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002729 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C046C9FD0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C04973020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.6 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2199.
-Total: 2.940500 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.056100 ms MarkObjects: 2.648600 ms  DeleteObjects: 0.076100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002393 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C061971E0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C05105030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.077 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.6 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2202.
-Total: 2.979400 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.611100 ms  DeleteObjects: 0.089000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001706 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C05247420 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C04973020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.111 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.6 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2205.
-Total: 3.071300 ms (FindLiveObjects: 0.160300 ms CreateObjectMapping: 0.056300 ms MarkObjects: 2.749800 ms  DeleteObjects: 0.103600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001879 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C4F840AB0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C05105030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.166 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2208.
-Total: 3.105500 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.062000 ms MarkObjects: 2.778800 ms  DeleteObjects: 0.090700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002528 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C06D8DE60 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C04973020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.151 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2211.
-Total: 3.132800 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.845700 ms  DeleteObjects: 0.074900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001689 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C4FFDFCB0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C05105030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0A738B030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.213 seconds
+- Completed reload, in  1.238 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.8 MB.
+Unloading 1691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.6 MB.
+System memory in use after: 193.7 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2214.
-Total: 3.973000 ms (FindLiveObjects: 0.166800 ms CreateObjectMapping: 0.058200 ms MarkObjects: 3.651300 ms  DeleteObjects: 0.095400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001688 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C08C2C030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C04973020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.267 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2217.
-Total: 3.154200 ms (FindLiveObjects: 0.164600 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.839900 ms  DeleteObjects: 0.089000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003619 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C05247420 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C05105030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.7 MB.
-System memory in use after: 171.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2220.
-Total: 3.488400 ms (FindLiveObjects: 0.159000 ms CreateObjectMapping: 0.055000 ms MarkObjects: 3.183600 ms  DeleteObjects: 0.089700 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 3.458000 ms (FindLiveObjects: 0.212900 ms CreateObjectMapping: 0.160300 ms MarkObjects: 2.978900 ms  DeleteObjects: 0.104600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1687.337353 seconds.
-  path: Assets/SlimeRabbit/Animator/SlimeRabbitAnim.controller
-  artifactKey: Guid(c4aa28baba0cd1744abfd30b0b913647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlimeRabbit/Animator/SlimeRabbitAnim.controller using Guid(c4aa28baba0cd1744abfd30b0b913647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c77064375e990e3dbb8d8dfd51479d') in 0.624492 seconds 
+  Time since last request: 159.022879 seconds.
+  path: Assets/Animations/Hurt screen.png
+  artifactKey: Guid(cd2756528ea8daa47bac11735c96f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Hurt screen.png using Guid(cd2756528ea8daa47bac11735c96f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867eacc745c64cf5b742c043a2e39151') in 0.100178 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.039103 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(c275d5c7fd00a7f46b916b023d0a28e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(c275d5c7fd00a7f46b916b023d0a28e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42361d6658dd7a1ca867f135e28b0d4') in 0.125491 seconds 
+  Time since last request: 46.532305 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/crosshair.png
+  artifactKey: Guid(1a1da36a104725048b8d2388fb8d321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/crosshair.png using Guid(1a1da36a104725048b8d2388fb8d321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c45448890758379997ad197b6df2de0') in 0.276367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Scenes/CameraMagnets/Proximity.png
+  artifactKey: Guid(a29985f57f2a444dcae5c5e3a1ad420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Scenes/CameraMagnets/Proximity.png using Guid(a29985f57f2a444dcae5c5e3a1ad420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805321a06c0b00aa2dc7e38d1b5c00c6') in 0.123743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.646247 seconds.
+  path: Assets/PolygonStarter/Materials/Misc/PolygonStarter_Clouds_Mat.mat
+  artifactKey: Guid(24178269aee50fa45af0c61018153ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Materials/Misc/PolygonStarter_Clouds_Mat.mat using Guid(24178269aee50fa45af0c61018153ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118b0c4b7c0435ea905fa159b3ca788d') in 0.923755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_03.mat
+  artifactKey: Guid(a34e2e9511ab63041850d60a4868cfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_03.mat using Guid(a34e2e9511ab63041850d60a4868cfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2406d92a7b8d3bf47e92c5247b3aa49') in 0.027919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_01.mat
+  artifactKey: Guid(940d4c7d3d8f0ff4aab297e184fe9ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_01.mat using Guid(940d4c7d3d8f0ff4aab297e184fe9ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df6f654729325650cf48fb047cee1e3') in 0.120459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_04.mat
+  artifactKey: Guid(40b5b1cfe73d4444eb7e750bd8e3f90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_04.mat using Guid(40b5b1cfe73d4444eb7e750bd8e3f90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6493545d8e7b0a859c19872ff2b6807d') in 0.141104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/PolygonStarter/Materials/Misc/PolygonStarter_Mat_01_Glass.mat
+  artifactKey: Guid(167faa9f54383f04987dcacc6372f1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Materials/Misc/PolygonStarter_Mat_01_Glass.mat using Guid(167faa9f54383f04987dcacc6372f1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbb8aa553677a674fd1fdf72b216599') in 0.133819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/PolygonStarter/Materials/Misc/PolygonStarter_SimpleSky_01.mat
+  artifactKey: Guid(749197eb2a1afbc4a8ead02781020e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Materials/Misc/PolygonStarter_SimpleSky_01.mat using Guid(749197eb2a1afbc4a8ead02781020e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fd58dd4006e93f51503e0e25593041') in 0.166053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_02.mat
+  artifactKey: Guid(dce3a789f595f224a85f5cf4f2e6667d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_02.mat using Guid(dce3a789f595f224a85f5cf4f2e6667d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197956f655771bb8894b527fad8cc67f') in 0.376891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.188976 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_Block_1x1_01.fbx
+  artifactKey: Guid(caed417d0c17a134696ff2ef8b52a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_Block_1x1_01.fbx using Guid(caed417d0c17a134696ff2ef8b52a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2903c9a1c3284a72ea06384d2f2cf279') in 0.538506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Primitive_Sphere_02.fbx
+  artifactKey: Guid(e8ba51a934eb276468729107e5d3143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Primitive_Sphere_02.fbx using Guid(e8ba51a934eb276468729107e5d3143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839f2bc64716abd4ca2aa3e732a94d84') in 0.086091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x1_01.fbx
+  artifactKey: Guid(68472b6ee0a878143b1d10804a97dd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x1_01.fbx using Guid(68472b6ee0a878143b1d10804a97dd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91692b924996e734c07d50ae9cc19dd2') in 0.071939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_WallDoor_2x3_01.fbx
+  artifactKey: Guid(3316d1e99a707354a8f7b236cf8726a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_WallDoor_2x3_01.fbx using Guid(3316d1e99a707354a8f7b236cf8726a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb14745f6b17782489eeafd4606383a1') in 0.043148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_Column_2x3_01.fbx
+  artifactKey: Guid(b45e496b386039141af15f243dd3ac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_Column_2x3_01.fbx using Guid(b45e496b386039141af15f243dd3ac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99d415ca24f37fa954b36979d3eb372') in 0.040849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_WallWindow_2x3_01.fbx
+  artifactKey: Guid(c61783dd79ffb5443ac65c3892395ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_WallWindow_2x3_01.fbx using Guid(c61783dd79ffb5443ac65c3892395ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9ec9d0695ef37457944ebaea014a54') in 0.048336 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000365 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(f58efb8ffae9e304cbbc4660e3e8b480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(f58efb8ffae9e304cbbc4660e3e8b480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ebc23d5d8c471d87ca1ea225fbd394') in 0.882882 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001770 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C0A8AADE0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.2 MB.
-System memory in use after: 189.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2231.
-Total: 2.817000 ms (FindLiveObjects: 0.142200 ms CreateObjectMapping: 0.055800 ms MarkObjects: 2.543100 ms  DeleteObjects: 0.074900 ms)
-
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x3_01.fbx
+  artifactKey: Guid(7ce50dc06d7bb62448b532080fd35371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x3_01.fbx using Guid(7ce50dc06d7bb62448b532080fd35371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2df2113851dd4ecfe72461578b5a599') in 0.067703 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.695253 seconds.
-  path: Assets/SlimeRabbit/Prefab/SlimeRabbit_Prefab.prefab
-  artifactKey: Guid(57d78de69bcaf8a4e969c0c3350b859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlimeRabbit/Prefab/SlimeRabbit_Prefab.prefab using Guid(57d78de69bcaf8a4e969c0c3350b859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5f8648fe4f68acb628d5c955c07db5') in 0.109128 seconds 
+  Time since last request: 0.000355 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Primitive_Cone_02.fbx
+  artifactKey: Guid(cace0b4260176de46b5ca288f5d42e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Primitive_Cone_02.fbx using Guid(cace0b4260176de46b5ca288f5d42e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44a853cc8b8e47c593090a122ad1916') in 0.042140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_Ramp_25_1x1_01.fbx
+  artifactKey: Guid(489a905ef5c877d4a8e6f9fb1f7f55e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_Ramp_25_1x1_01.fbx using Guid(489a905ef5c877d4a8e6f9fb1f7f55e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df778f0b9e3095121a5764cb902e440a') in 0.057966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_Floor_1x1_01.fbx
+  artifactKey: Guid(bef96b6e1cd37444fa6937ae99361014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_Floor_1x1_01.fbx using Guid(bef96b6e1cd37444fa6937ae99361014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caa336211266ee3819cb7f74c41a354') in 0.042830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_DoorFrame_01.fbx
+  artifactKey: Guid(c7bd79f25c690294f893f8905d2264f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_DoorFrame_01.fbx using Guid(c7bd79f25c690294f893f8905d2264f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a228c97f0b97649893627d06ebc056') in 0.042189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_PolygonApocalypse_Bld_House_01_Collision.fbx
+  artifactKey: Guid(078a8d5463c9e294fa6b62999ab84a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_PolygonApocalypse_Bld_House_01_Collision.fbx using Guid(078a8d5463c9e294fa6b62999ab84a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7b00f83d6e0148a8067f1c7d415a90') in 0.058809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cop_01.prefab
+  artifactKey: Guid(f10c394033f254647873f3d28a75a062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cop_01.prefab using Guid(f10c394033f254647873f3d28a75a062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4060ebc0ab50ababd5cd3366edb7272d') in 0.079956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Female_01.prefab
+  artifactKey: Guid(bc89cff11dc72544faaaa69b501fd596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Female_01.prefab using Guid(bc89cff11dc72544faaaa69b501fd596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f109f7669c0594839c926f10f73677') in 0.107826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000707 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Character_Male_01.prefab
+  artifactKey: Guid(f11fc98cf1e8d5547a9b2ec85cc9c664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Character_Male_01.prefab using Guid(f11fc98cf1e8d5547a9b2ec85cc9c664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127f311ffbe424661cb506cd96619024') in 0.086373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Town_Female_01.prefab
+  artifactKey: Guid(9b88eb630e9e15a4f950eae741685374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Town_Female_01.prefab using Guid(9b88eb630e9e15a4f950eae741685374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4da470bdfc267658a8b62c35c25addc') in 0.033162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Primitive_Cylander_02.fbx
+  artifactKey: Guid(d4310e8ff3695464cad536592578913c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Primitive_Cylander_02.fbx using Guid(d4310e8ff3695464cad536592578913c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762514e2b174e407e6b28127b5500106') in 0.049375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cowboy_01.prefab
+  artifactKey: Guid(e332982425ee2ec48b168979bb7b43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cowboy_01.prefab using Guid(e332982425ee2ec48b168979bb7b43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787117cd5bf1846b7d3807ce8e107ac4') in 0.032505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Character_Female_01.prefab
+  artifactKey: Guid(68617247be1cad64d8dfe7e3cbbb3174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Character_Female_01.prefab using Guid(68617247be1cad64d8dfe7e3cbbb3174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a803330d6572490b9b0cd2870701349') in 0.026274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.321998 seconds.
+  path: Assets/PolygonStarter/Textures/Polygon_Plane_Texture_01.png
+  artifactKey: Guid(a969091ee1740c3469cc70c44c3caa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Textures/Polygon_Plane_Texture_01.png using Guid(a969091ee1740c3469cc70c44c3caa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b39eaecb846455d1db824a49e0fff9') in 0.046363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/PolygonStarter/Textures/PolygonStarter_Texture_01.png
+  artifactKey: Guid(6cf54faba48b51c45af7d22ca798531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Textures/PolygonStarter_Texture_01.png using Guid(6cf54faba48b51c45af7d22ca798531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b868d2429d3491687f93d55709155bc') in 0.027382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/PolygonStarter/Textures/PolygonStarter_Texture_02.png
+  artifactKey: Guid(1ef3316ad51610e4ea3782e70ea9be4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Textures/PolygonStarter_Texture_02.png using Guid(1ef3316ad51610e4ea3782e70ea9be4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6606f95cfa4e71a330b98711d88a3e14') in 0.062476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/PolygonStarter/Textures/Polygon_Plane_Texture_04.png
+  artifactKey: Guid(3c88dab59f29ae7439e1be3c8742bd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Textures/Polygon_Plane_Texture_04.png using Guid(3c88dab59f29ae7439e1be3c8742bd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877fa2dae9ebba4f36e5238c733b1d82') in 0.024146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/PolygonStarter/Textures/Polygon_Plane_Texture_03.png
+  artifactKey: Guid(ab16207b9b940c14687cad2ecf62259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Textures/Polygon_Plane_Texture_03.png using Guid(ab16207b9b940c14687cad2ecf62259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc63c8e9364df8492fb336f2b31898fd') in 0.020208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/PolygonStarter/Textures/Polygon_Plane_Texture_02.png
+  artifactKey: Guid(addc2d43f6566e24d8bd5924661c6c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Textures/Polygon_Plane_Texture_02.png using Guid(addc2d43f6566e24d8bd5924661c6c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd311250763b2f3888b31bfbcf251f44b') in 0.021514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/PolygonStarter/Textures/Simple_Sky_Texture_01.png
+  artifactKey: Guid(a073e30cf8f3cab47b5cf5aa2df423f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Textures/Simple_Sky_Texture_01.png using Guid(a073e30cf8f3cab47b5cf5aa2df423f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5736dfdde47849b437e2478e1afee03b') in 0.043756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/PolygonStarter/Textures/PolygonStarter_Texture_03.png
+  artifactKey: Guid(eac0676553323674aa7d6e8e4d94dec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Textures/PolygonStarter_Texture_03.png using Guid(eac0676553323674aa7d6e8e4d94dec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478b776e2730b60dc9e09bc7f4761de2') in 0.043791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/PolygonStarter/Textures/PolygonStarter_Texture_04.png
+  artifactKey: Guid(051364296435f87449810911a2f9c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonStarter/Textures/PolygonStarter_Texture_04.png using Guid(051364296435f87449810911a2f9c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b660f5c269b41a25ce57f5f12f3b30') in 0.057399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 284.600519 seconds.
+  path: Assets/Samples/Cinemachine
+  artifactKey: Guid(f22063adb807ddf42a03a0d75cf4966a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine using Guid(f22063adb807ddf42a03a0d75cf4966a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa346762a0e1c96ba733b51d4aef3c82') in 0.015374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.908387 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4
+  artifactKey: Guid(80ea357d7c0c97042bc10ff34e530d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4 using Guid(80ea357d7c0c97042bc10ff34e530d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb27e75cb13183ba56665c8c67367b92') in 0.011337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.592513 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes
+  artifactKey: Guid(334a9dec282d6e942ba38c4c755473ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes using Guid(334a9dec282d6e942ba38c4c755473ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a158e87bef123ada9c8b12a350520090') in 0.010113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.074333 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared
+  artifactKey: Guid(9f9f3be6bf53948e7994bc63835ff3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared using Guid(9f9f3be6bf53948e7994bc63835ff3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5df4aee4170c4ee8b404a3c002fb0b') in 0.010557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.754276 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures
+  artifactKey: Guid(28716b6ac10d39e4b92fd00f2db082cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures using Guid(28716b6ac10d39e4b92fd00f2db082cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7674cbc9f6c53f9ea3d71f7c409dba5d') in 0.008545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063203 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/checkerboard.png
+  artifactKey: Guid(0b343b179d2251243a8bbed3fe8e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/checkerboard.png using Guid(0b343b179d2251243a8bbed3fe8e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771d3e4902a70c8a8b90ac1689bfd277') in 0.112179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/GridBox_blue.png
+  artifactKey: Guid(f63eea91ff30e6d48800caa1ebc457ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/GridBox_blue.png using Guid(f63eea91ff30e6d48800caa1ebc457ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa19b48e0185ae2d710bdc44c7815f0') in 0.028594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.png
+  artifactKey: Guid(a14ac3ec63e90e7419f00be590aed374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.png using Guid(a14ac3ec63e90e7419f00be590aed374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b77e335a2d37a0be7cac3368c67c40') in 0.060905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/GridBox_Default.png
+  artifactKey: Guid(9470468fda72f4773a90a0306decbf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/GridBox_Default.png using Guid(9470468fda72f4773a90a0306decbf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf8184b0b8540a175e35876060a6f2b') in 0.038172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.tga
+  artifactKey: Guid(1ba5e9ac4a1333240aade937f08bbcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.tga using Guid(1ba5e9ac4a1333240aade937f08bbcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1f7b3b6d50f1596cee5d987e7ddc86') in 0.026479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 173.860087 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/Hurt screen.png
+  artifactKey: Guid(cd2756528ea8daa47bac11735c96f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/Hurt screen.png using Guid(cd2756528ea8daa47bac11735c96f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77007e5e635fd9671e9408cd4dbe72f7') in 0.033711 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001586 seconds.
+Registered in 0.002775 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C517ECD00 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0AA5A6440 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0AB265010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.142 seconds
+- Completed reload, in  1.126 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.3 MB.
-System memory in use after: 189.3 MB.
+Unloading 1706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.5 MB.
+System memory in use after: 216.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2235.
-Total: 2.999000 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.055000 ms MarkObjects: 2.723000 ms  DeleteObjects: 0.060700 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2571.
+Total: 3.291500 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.061400 ms MarkObjects: 2.847800 ms  DeleteObjects: 0.107400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001675 seconds.
+Registered in 0.001600 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C503575A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0A30E63C0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0AB265010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.241 seconds
+- Completed reload, in  1.200 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.3 MB.
-System memory in use after: 189.3 MB.
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2238.
-Total: 3.308900 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.064200 ms MarkObjects: 3.011200 ms  DeleteObjects: 0.051500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002054 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026BE01EB460 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.3 MB.
-System memory in use after: 189.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2241.
-Total: 3.061600 ms (FindLiveObjects: 0.162500 ms CreateObjectMapping: 0.056200 ms MarkObjects: 2.759800 ms  DeleteObjects: 0.081800 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 2.560500 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.078500 ms MarkObjects: 2.207400 ms  DeleteObjects: 0.064000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001688 seconds.
+Registered in 0.001945 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C4FFE3690 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0A30E4010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.3 MB.
-System memory in use after: 189.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2244.
-Total: 3.010600 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.054000 ms MarkObjects: 2.683500 ms  DeleteObjects: 0.112400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001686 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026C4FFE3690 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0A7119500 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
+- Completed reload, in  1.130 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.3 MB.
-System memory in use after: 189.3 MB.
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2247.
-Total: 2.599700 ms (FindLiveObjects: 0.158100 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.309900 ms  DeleteObjects: 0.065200 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 3.970200 ms (FindLiveObjects: 0.332700 ms CreateObjectMapping: 0.087000 ms MarkObjects: 3.473300 ms  DeleteObjects: 0.075000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001698 seconds.
+Registered in 0.001784 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026BE01EB460 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0A6FC1D90 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0A7119500 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.2 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 2.997900 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.065700 ms MarkObjects: 2.622700 ms  DeleteObjects: 0.105400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001851 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A5C0A020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A25D731900 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.2 MB.
+System memory in use after: 216.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 2.610000 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.070500 ms MarkObjects: 2.282000 ms  DeleteObjects: 0.063900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002267 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A78DE010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A7119500 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.059 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.2 MB.
+System memory in use after: 216.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 3.640600 ms (FindLiveObjects: 0.198800 ms CreateObjectMapping: 0.068600 ms MarkObjects: 3.305200 ms  DeleteObjects: 0.066600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002358 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A8D96430 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6E94AC0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.204 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.2 MB.
+System memory in use after: 216.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2589.
+Total: 3.421300 ms (FindLiveObjects: 0.189500 ms CreateObjectMapping: 0.067300 ms MarkObjects: 3.078100 ms  DeleteObjects: 0.085200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A8D94050 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A163D040 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.2 MB.
+System memory in use after: 216.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 3.437400 ms (FindLiveObjects: 0.215000 ms CreateObjectMapping: 0.116000 ms MarkObjects: 3.019900 ms  DeleteObjects: 0.085100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001683 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A25D733910 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.3 MB.
-System memory in use after: 189.4 MB.
+System memory in use before: 216.2 MB.
+System memory in use after: 216.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2250.
-Total: 2.621000 ms (FindLiveObjects: 0.158600 ms CreateObjectMapping: 0.060400 ms MarkObjects: 2.340900 ms  DeleteObjects: 0.060000 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 2.865400 ms (FindLiveObjects: 0.222300 ms CreateObjectMapping: 0.076400 ms MarkObjects: 2.509500 ms  DeleteObjects: 0.055400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001743 seconds.
+Registered in 0.002178 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C513D9020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0B0D42880 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.130 seconds
+- Completed reload, in  1.095 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.2 MB.
+System memory in use after: 216.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2598.
+Total: 3.279100 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.068800 ms MarkObjects: 2.908700 ms  DeleteObjects: 0.088700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001615 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0AAF72040 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.2 MB.
+System memory in use after: 216.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 2.876800 ms (FindLiveObjects: 0.211900 ms CreateObjectMapping: 0.074700 ms MarkObjects: 2.505200 ms  DeleteObjects: 0.083900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A2904440 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.3 MB.
+System memory in use after: 216.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 3.156100 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.070700 ms MarkObjects: 2.784800 ms  DeleteObjects: 0.087200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001718 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0B016C440 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.3 MB.
-System memory in use after: 189.4 MB.
+System memory in use before: 216.3 MB.
+System memory in use after: 216.4 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 3.237100 ms (FindLiveObjects: 0.342300 ms CreateObjectMapping: 0.179700 ms MarkObjects: 2.649200 ms  DeleteObjects: 0.064400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2607.
+Total: 2.639500 ms (FindLiveObjects: 0.215300 ms CreateObjectMapping: 0.079400 ms MarkObjects: 2.277800 ms  DeleteObjects: 0.065400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001662 seconds.
+Registered in 0.001875 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C55958020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0AE7D4020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C503EA040 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.3 MB.
+System memory in use after: 216.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2610.
+Total: 3.012400 ms (FindLiveObjects: 0.325600 ms CreateObjectMapping: 0.115100 ms MarkObjects: 2.501300 ms  DeleteObjects: 0.068400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003175 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A33F8D50 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.3 MB.
+System memory in use after: 216.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2613.
+Total: 2.999500 ms (FindLiveObjects: 0.210600 ms CreateObjectMapping: 0.063700 ms MarkObjects: 2.643700 ms  DeleteObjects: 0.080500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001663 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2C0BE9E90 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.3 MB.
+System memory in use after: 216.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 2.807200 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.067000 ms MarkObjects: 2.444100 ms  DeleteObjects: 0.062900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001602 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0B016A010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2619.
+Total: 3.134200 ms (FindLiveObjects: 0.233300 ms CreateObjectMapping: 0.082400 ms MarkObjects: 2.752600 ms  DeleteObjects: 0.064600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001821 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2C3986490 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2622.
+Total: 3.328300 ms (FindLiveObjects: 0.499900 ms CreateObjectMapping: 0.208200 ms MarkObjects: 2.552500 ms  DeleteObjects: 0.065900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001652 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A25D74C4A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2625.
+Total: 3.439900 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.145200 ms MarkObjects: 3.000100 ms  DeleteObjects: 0.068800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A25D74A020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2628.
+Total: 3.128600 ms (FindLiveObjects: 0.210400 ms CreateObjectMapping: 0.069400 ms MarkObjects: 2.752500 ms  DeleteObjects: 0.095400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002248 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2C5FD8040 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 4.001200 ms (FindLiveObjects: 0.205200 ms CreateObjectMapping: 0.072600 ms MarkObjects: 3.633400 ms  DeleteObjects: 0.088600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002276 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2C9C76050 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2634.
+Total: 2.941900 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.066100 ms MarkObjects: 2.494000 ms  DeleteObjects: 0.078800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001690 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A9CE3A40 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A163D040 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2637.
+Total: 2.726500 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.077300 ms MarkObjects: 2.355100 ms  DeleteObjects: 0.070500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001639 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A9CE3A40 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C0BE0060 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.184 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2640.
+Total: 3.126900 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.750300 ms  DeleteObjects: 0.092400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A9CE3A40 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A5B2F040 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.203 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2643.
+Total: 2.872300 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.065500 ms MarkObjects: 2.538000 ms  DeleteObjects: 0.068400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001733 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2C5363E60 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A5B2F040 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 3.413400 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.961000 ms  DeleteObjects: 0.095600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001624 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2CD72DA70 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.258 seconds
+- Completed reload, in  1.194 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 3.158400 ms (FindLiveObjects: 0.224700 ms CreateObjectMapping: 0.069000 ms MarkObjects: 2.795000 ms  DeleteObjects: 0.068100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001634 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A6E61360 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 3.308600 ms (FindLiveObjects: 0.260800 ms CreateObjectMapping: 0.073700 ms MarkObjects: 2.894900 ms  DeleteObjects: 0.077400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002929 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0A6E61360 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2655.
+Total: 3.397700 ms (FindLiveObjects: 0.354700 ms CreateObjectMapping: 0.112200 ms MarkObjects: 2.817800 ms  DeleteObjects: 0.111700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001777 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0AF3D24E0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.134 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 2.691100 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.267900 ms  DeleteObjects: 0.085000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001618 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2C2DD0060 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.4 MB.
-System memory in use after: 189.5 MB.
+System memory in use before: 216.6 MB.
+System memory in use after: 216.7 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2256.
-Total: 3.170000 ms (FindLiveObjects: 0.180300 ms CreateObjectMapping: 0.068400 ms MarkObjects: 2.834000 ms  DeleteObjects: 0.086200 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2661.
+Total: 3.262800 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.100700 ms MarkObjects: 2.766100 ms  DeleteObjects: 0.067400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002438 seconds.
+Registered in 0.001754 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C503575A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A0A1A18E40 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C503EA040 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A2D2078030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
+- Completed reload, in  1.184 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.4 MB.
-System memory in use after: 189.5 MB.
+System memory in use before: 216.7 MB.
+System memory in use after: 216.8 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 3.864000 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.058900 ms MarkObjects: 3.563000 ms  DeleteObjects: 0.070200 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2664.
+Total: 3.134800 ms (FindLiveObjects: 0.309500 ms CreateObjectMapping: 0.096300 ms MarkObjects: 2.658500 ms  DeleteObjects: 0.068600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002345 seconds.
+Registered in 0.002133 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C55958020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A2C303E950 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A2CEB99080 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.059 seconds
+- Completed reload, in  1.122 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.4 MB.
-System memory in use after: 189.5 MB.
+System memory in use before: 216.7 MB.
+System memory in use after: 216.8 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2262.
-Total: 2.799000 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.054900 ms MarkObjects: 2.502600 ms  DeleteObjects: 0.078000 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2667.
+Total: 3.204700 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.062800 ms MarkObjects: 2.857300 ms  DeleteObjects: 0.065400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001773 seconds.
+Registered in 0.002115 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C503575A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A2D1B03E50 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.288 seconds
+- Completed reload, in  1.125 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.4 MB.
-System memory in use after: 189.5 MB.
+System memory in use before: 216.7 MB.
+System memory in use after: 216.8 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 4.403100 ms (FindLiveObjects: 0.177200 ms CreateObjectMapping: 0.071800 ms MarkObjects: 4.084900 ms  DeleteObjects: 0.067500 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2670.
+Total: 2.740300 ms (FindLiveObjects: 0.245500 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.347900 ms  DeleteObjects: 0.053000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001799 seconds.
+Registered in 0.002071 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026C503575A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A2C8F3DE50 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026C066616A0 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -775,13 +1424,673 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.139 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.7 MB.
+System memory in use after: 216.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 2.805000 ms (FindLiveObjects: 0.237400 ms CreateObjectMapping: 0.087800 ms MarkObjects: 2.420200 ms  DeleteObjects: 0.057900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002682 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D08BE020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.7 MB.
+System memory in use after: 216.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2676.
+Total: 3.047000 ms (FindLiveObjects: 0.287500 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.603500 ms  DeleteObjects: 0.057200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001600 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D08BE020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A9CE0010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.7 MB.
+System memory in use after: 216.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 2.597600 ms (FindLiveObjects: 0.274600 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.176800 ms  DeleteObjects: 0.056300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001600 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D08BE020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.4 MB.
-System memory in use after: 189.5 MB.
+System memory in use before: 216.7 MB.
+System memory in use after: 216.8 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2268.
-Total: 3.158700 ms (FindLiveObjects: 0.170100 ms CreateObjectMapping: 0.053300 ms MarkObjects: 2.741400 ms  DeleteObjects: 0.192700 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 3.033000 ms (FindLiveObjects: 0.220000 ms CreateObjectMapping: 0.098300 ms MarkObjects: 2.623400 ms  DeleteObjects: 0.090300 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001880 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D08BE020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.7 MB.
+System memory in use after: 216.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 3.778200 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.120700 ms MarkObjects: 3.345300 ms  DeleteObjects: 0.081900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002563 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D08BE020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2688.
+Total: 3.484200 ms (FindLiveObjects: 0.332200 ms CreateObjectMapping: 0.076600 ms MarkObjects: 3.000000 ms  DeleteObjects: 0.073900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001722 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D08BE020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.357 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 3.067600 ms (FindLiveObjects: 0.205000 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.704500 ms  DeleteObjects: 0.089400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002281 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D4A62030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 3.313500 ms (FindLiveObjects: 0.445900 ms CreateObjectMapping: 0.171000 ms MarkObjects: 2.623700 ms  DeleteObjects: 0.070900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001621 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D4A62030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2697.
+Total: 3.093100 ms (FindLiveObjects: 0.232700 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.726100 ms  DeleteObjects: 0.052400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001759 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D4A62030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2700.
+Total: 3.235100 ms (FindLiveObjects: 0.209600 ms CreateObjectMapping: 0.063300 ms MarkObjects: 2.896200 ms  DeleteObjects: 0.064900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001685 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D4A62030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2703.
+Total: 2.925700 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.538700 ms  DeleteObjects: 0.070600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001778 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D4A62030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.172 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2706.
+Total: 3.030100 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.668400 ms  DeleteObjects: 0.067300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001674 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D0870050 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2709.
+Total: 3.186100 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.810400 ms  DeleteObjects: 0.083700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001932 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D4A62030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2DE130020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.553 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2712.
+Total: 3.390400 ms (FindLiveObjects: 0.302300 ms CreateObjectMapping: 0.102100 ms MarkObjects: 2.914200 ms  DeleteObjects: 0.069700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001692 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D4A62030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.583 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2715.
+Total: 4.521800 ms (FindLiveObjects: 0.407900 ms CreateObjectMapping: 0.162600 ms MarkObjects: 3.848200 ms  DeleteObjects: 0.101300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001726 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2C1838010 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2C77F2020 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.9 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2718.
+Total: 2.746300 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.351700 ms  DeleteObjects: 0.072400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5648.150077 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/New Project (5).png
+  artifactKey: Guid(f0f80c1bc71f8d4459ad784ab8fd1917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/New Project (5).png using Guid(f0f80c1bc71f8d4459ad784ab8fd1917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7325f40245a31a1c7a02dab7960c0911') in 3.760811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.819443 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/Black screen.png
+  artifactKey: Guid(f0f80c1bc71f8d4459ad784ab8fd1917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/Black screen.png using Guid(f0f80c1bc71f8d4459ad784ab8fd1917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee78d03df8e608f19ec8bcaa9467ba94') in 0.048183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.292964 seconds.
+  path: Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/Black screen.png
+  artifactKey: Guid(f0f80c1bc71f8d4459ad784ab8fd1917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.6.4/Cinemachine Example Scenes/Shared/Textures/Black screen.png using Guid(f0f80c1bc71f8d4459ad784ab8fd1917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835ce8b71a75cdf526bdea42000b504b') in 0.088765 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002481 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0AB268030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6194320 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.1 MB.
+System memory in use after: 219.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2765.
+Total: 3.437400 ms (FindLiveObjects: 0.244800 ms CreateObjectMapping: 0.077700 ms MarkObjects: 3.060500 ms  DeleteObjects: 0.053000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001626 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0AB268030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6194320 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.148 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.1 MB.
+System memory in use after: 219.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2768.
+Total: 3.425500 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.105900 ms MarkObjects: 3.002800 ms  DeleteObjects: 0.055600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001709 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0AB268030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6194320 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.1 MB.
+System memory in use after: 219.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2771.
+Total: 3.265900 ms (FindLiveObjects: 0.260600 ms CreateObjectMapping: 0.071200 ms MarkObjects: 2.852800 ms  DeleteObjects: 0.079800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001636 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0AB268030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6194320 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.1 MB.
+System memory in use after: 219.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2774.
+Total: 3.480600 ms (FindLiveObjects: 0.225400 ms CreateObjectMapping: 0.067500 ms MarkObjects: 3.136600 ms  DeleteObjects: 0.049900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001635 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0AB268030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6194320 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.1 MB.
+System memory in use after: 219.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2777.
+Total: 2.889500 ms (FindLiveObjects: 0.259500 ms CreateObjectMapping: 0.086900 ms MarkObjects: 2.482100 ms  DeleteObjects: 0.059500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 594.336489 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6253cd2838c4b1aa7dff3aec743a28') in 0.250567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.346764 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dda4cba9364307af65daef94c03746') in 0.014069 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002102 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0AB268030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6194320 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.1 MB.
+System memory in use after: 219.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2780.
+Total: 4.715100 ms (FindLiveObjects: 0.390400 ms CreateObjectMapping: 0.134900 ms MarkObjects: 4.113600 ms  DeleteObjects: 0.074600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001948 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0AB268030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6194320 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.136 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.1 MB.
+System memory in use after: 219.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2783.
+Total: 3.051200 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.069300 ms MarkObjects: 2.687800 ms  DeleteObjects: 0.080000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001780 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A0AB268030 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6194320 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.237 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.1 MB.
+System memory in use after: 219.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2786.
+Total: 3.240000 ms (FindLiveObjects: 0.246200 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.866600 ms  DeleteObjects: 0.051600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002038 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2CA7A1580 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6194320 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.377 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.1 MB.
+System memory in use after: 219.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2789.
+Total: 2.946900 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.576700 ms  DeleteObjects: 0.080200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 524.802041 seconds.
+  path: Assets/Scenes/New Lighting Settings.lighting
+  artifactKey: Guid(ab6496078f711c443b3020a0e22b573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Lighting Settings.lighting using Guid(ab6496078f711c443b3020a0e22b573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da831b1d1b3f3fe71251b989bdb18fe5') in 0.054543 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002161 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A2D2AD5D60 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A0A6194320 doesn't match image D:\MS Word files\School\ADMU\3rd year\2nd Sem\ISCS Game Dev\OverTheShoulder\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.2 MB.
+System memory in use after: 219.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2792.
+Total: 872.640000 ms (FindLiveObjects: 42.255000 ms CreateObjectMapping: 0.169100 ms MarkObjects: 719.472600 ms  DeleteObjects: 110.741300 ms)
+
