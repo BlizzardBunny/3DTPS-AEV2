@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
+using UnityEngine.SceneManagement;
 
 public class CharacterAiming : MonoBehaviour
 {
@@ -40,6 +41,11 @@ public class CharacterAiming : MonoBehaviour
         if (Input.GetButton("Cancel"))
         {
             Application.Quit();
+        }
+
+        if (Input.GetButton("Fire2"))
+        {
+            SceneManager.LoadScene("Game");
         }
     }
 }

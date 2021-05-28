@@ -20,7 +20,6 @@ public class EnemyHealth : MonoBehaviour
         if (hitPoints <= 0)
         {
             Die();
-            //Destroy(gameObject);
         }
     }
 
@@ -28,6 +27,7 @@ public class EnemyHealth : MonoBehaviour
     {
         enemyAI.SetIsProvoked(false);
         enemyAI.GetRabbitAnimator().SetTrigger("Death");
+        Destroy(gameObject.GetComponent<Collider>());
     }
 
     public float GetHP()
