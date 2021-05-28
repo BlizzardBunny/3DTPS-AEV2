@@ -58,6 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\Samples\Cinemachine\2.6.4\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
     <Compile Include="Assets\Scripts\CharacterAiming.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\SlimeRabbit\Sc_AniTest.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\RaycastWeapon.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.4\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.4\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
@@ -82,9 +85,6 @@
     <Compile Include="Assets\Samples\Cinemachine\2.6.4\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.4\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.4\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
-    <Compile Include="Assets\SlimeRabbit\Sc_AniTest.cs" />
-    <Compile Include="Assets\Scripts\EnemyAI.cs" />
-    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Samples\Cinemachine\2.6.4\Cinemachine Example Scenes\Scenes\Anywhere Door\ScreenCutoutShader.shader" />

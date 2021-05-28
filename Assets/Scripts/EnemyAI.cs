@@ -8,10 +8,9 @@ public class EnemyAI : MonoBehaviour
 {
     [SerializeField] Transform target;
     [SerializeField] Animator rabbitAnimator;
-    [SerializeField] CapsuleCollider triggerCollider;
 
     NavMeshAgent navMeshAgent;
-    bool isProvoked = false;
+    [SerializeField] bool isProvoked = false;
 
     void Start()
     {
@@ -22,13 +21,13 @@ public class EnemyAI : MonoBehaviour
     {        
         if (isProvoked)
         {
+            rabbitAnimator.SetTrigger("Move");            
             EngageTarget();
         }
     }
 
     private void EngageTarget()
-    {
-        rabbitAnimator.SetBool("Move", true);
+    {        
         navMeshAgent.SetDestination(target.position);
     }
 
@@ -37,8 +36,8 @@ public class EnemyAI : MonoBehaviour
         isProvoked = i;
     }
 
-    private void OnTriggerEnter(Collider other)
+    public Animator GetRabbitAnimator()
     {
-        
+        return rabbitAnimator;
     }
 }

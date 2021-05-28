@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637577765230348975
-    m_Hash: 3900772047
+      ticks: 637578133780539358
+    m_Hash: 2716404379
   m_LockFileStatus:
     m_FilePath: D:/MS Word files/School/ADMU/3rd year/2nd Sem/ISCS Game Dev/OverTheShoulder/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637577766842973681
-    m_Hash: 227699067
+      ticks: 637578133780551056
+    m_Hash: 946583147
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -586,9 +586,11 @@ m_ResolvedPackages:
     - 1.1.20
     - 1.1.22
     - 1.1.24
+    - 1.1.26
     compatible:
     - 1.1.24
-    verified: 1.1.24
+    - 1.1.26
+    verified: 1.1.26
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6

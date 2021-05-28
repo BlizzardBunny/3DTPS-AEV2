@@ -5,15 +5,33 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] float hitPoints = 100f;
-    [SerializeField] Animator rabbitAnimator;
+    
+    EnemyAI enemyAI;
+
+    private void Start()
+    {
+        enemyAI = GetComponent<EnemyAI>();    
+    }
 
     public void TakeDamage(float damage)
     {
-        rabbitAnimator.SetBool("Damage", true);
+        enemyAI.GetRabbitAnimator().SetTrigger("Damage");
         hitPoints -= damage;
         if (hitPoints <= 0)
         {
-            Destroy(gameObject);
+            Die();
+            //Destroy(gameObject);
         }
+    }
+
+    private void Die()
+    {
+        enemyAI.SetIsProvoked(false);
+        enemyAI.GetRabbitAnimator().SetTrigger("Death");
+    }
+
+    public float GetHP()
+    {
+        return hitPoints;
     }
 }

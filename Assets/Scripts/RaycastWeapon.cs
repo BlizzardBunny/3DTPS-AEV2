@@ -43,7 +43,10 @@ public class RaycastWeapon : MonoBehaviour
             }
             targetHP.TakeDamage(damage);
             EnemyAI targetAI = hitInfo.transform.GetComponent<EnemyAI>();
-            targetAI.SetIsProvoked(true);
+            if (targetHP.GetHP() > 0)
+            {
+                targetAI.SetIsProvoked(true);
+            }
         }
         else
         {
